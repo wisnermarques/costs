@@ -1,0 +1,81 @@
+{
+  "projects": [
+    {
+      "name": "Meu Projeto",
+      "budget": "5000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "Projeto de Redes",
+      "budget": "10000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 2000,
+      "services": [
+        {
+          "name": "Serviço 1",
+          "cost": "1000",
+          "description": "Primeiro serviço",
+          "id": "b0899872-e2f1-4629-afea-caa19168c62f"
+        },
+        {
+          "name": "Teste",
+          "cost": "1000",
+          "description": "Teste",
+          "id": "e4f51069-35d8-4c1f-94ec-059f07b96500"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "App da empresa",
+      "budget": "10000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 7500,
+      "services": [
+        {
+          "name": "Contratar Dev",
+          "cost": "3500",
+          "description": "Criar uma API para a empresa",
+          "id": "35044ffd-a2d0-4859-ae73-2ac812e94792"
+        },
+        {
+          "name": "Contratar Dev React",
+          "cost": "4000",
+          "description": "Criar a aplicação Web",
+          "id": "d903404c-d628-4ce9-a88f-6b534aced36b"
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}
