@@ -20,7 +20,7 @@ export default function Projects() {
 
   useEffect(() => {
     setTimeout(() => {
-      fetch("http://localhost:5000/projects", {
+      fetch("https://644c097a17e2663b9dfea61b.mockapi.io/projects", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
